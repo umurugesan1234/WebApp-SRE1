@@ -8,6 +8,8 @@ namespace WebApplication1.Pages
         public void OnGet()
         {
          //throw new InvalidOperationException("Intentional runtime error for testing the Privacy page.");
+         throw new DivideByZeroException("Intentional runtime error for testing the Privacy page.");
+
         }
     }
 
